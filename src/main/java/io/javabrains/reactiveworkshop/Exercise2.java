@@ -7,7 +7,8 @@ public class Exercise2 {
     public static void main(String[] args) throws IOException {
 
         // Use ReactiveSources.intNumbersFlux() and ReactiveSources.userFlux()
-
+        ReactiveSources.intNumbersFlux().subscribe(e -> System.out.println(e));
+        // ReactiveSources.userFlux().subscribe(e -> System.out.println(e));
         // Print all numbers in the ReactiveSources.intNumbersFlux stream
         // TODO: Write code here
 
