@@ -6,7 +6,7 @@ import java.util.stream.Stream;
  * This class is a source of collection streams used in the exercises.
  * DO NOT MODIFY THIS CODE
  *
- * @author koushikkothagal
+ * @author Halima Sanofer
  */
 public class StreamSources {
 
